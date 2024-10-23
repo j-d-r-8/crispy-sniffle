@@ -1,3 +1,7 @@
+'''This is a quiz interface written in Python. It is built to satisfy the requirements of the term project for CS1400-008 in the Fall 2024 semester.
+This is for Team 2. Members include:
+Justin Rosenthal, Amanuel Bekele, Benicio Ayala, Emilianjo Padilla, Erick Caraveo'''
+
 import tkinter as tk
 from tkinter import simpledialog, messagebox
 import json

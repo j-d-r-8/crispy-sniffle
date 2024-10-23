@@ -1,0 +1,103 @@
+[
+    {
+        "question": "What is the purpose of the MOV instruction in ARM assembly?",
+        "type": "multiple_choice",
+        "options": [
+            "To move data from one register to another",
+            "To perform arithmetic operations",
+            "To branch to a different part of the code",
+            "To load data from memory"
+        ],
+        "answer": "To move data from one register to another",
+        "difficulty": "easy"
+    },
+    {
+        "question": "True or False: The SP register is typically used as the Stack Pointer in ARM architecture.",
+        "type": "true_false",
+        "options": ["True", "False"],
+        "answer": "True",
+        "difficulty": "easy"
+    },
+    {
+        "question": "Which register is known as the Link Register in ARM?",
+        "type": "multiple_choice",
+        "options": [
+            "R12",
+            "R14",
+            "R15",
+            "R7"
+        ],
+        "answer": "R14",
+        "difficulty": "medium"
+    },
+    {
+        "question": "True or False: The LDR instruction is used to store data from a register to memory in ARM assembly.",
+        "type": "true_false",
+        "options": ["True", "False"],
+        "answer": "False",
+        "difficulty": "medium"
+    },
+    {
+        "question": "What does the BL instruction do in ARM assembly?",
+        "type": "multiple_choice",
+        "options": [
+            "Branches to a label without linking",
+            "Branches to a label and stores the return address",
+            "Loads a value into a register",
+            "Compares two registers"
+        ],
+        "answer": "Branches to a label and stores the return address",
+        "difficulty": "medium"
+    },
+    {
+        "question": "True or False: The CMP instruction sets condition flags based on the result of an addition operation.",
+        "type": "true_false",
+        "options": ["True", "False"],
+        "answer": "False",
+        "difficulty": "hard"
+    },
+    {
+        "question": "Which of the following is NOT a general-purpose register in ARM architecture?",
+        "type": "multiple_choice",
+        "options": [
+            "R0",
+            "R8",
+            "R16",
+            "R12"
+        ],
+        "answer": "R16",
+        "difficulty": "hard"
+    },
+    {
+        "question": "In ARM assembly, what is the purpose of the Program Counter (PC) register?",
+        "type": "multiple_choice",
+        "options": [
+            "Stores the return address for function calls",
+            "Points to the current instruction being executed",
+            "Holds temporary data",
+            "Manages stack operations"
+        ],
+        "answer": "Points to the current instruction being executed",
+        "difficulty": "easy"
+    },
+    {
+        "question": "True or False: The STR instruction is used to load data from memory into a register in ARM assembly.",
+        "type": "true_false",
+        "options": ["True", "False"],
+        "answer": "False",
+        "difficulty": "easy"
+    },
+    {
+        "question": "What is the result of the following ARM instructions?\nMOV R0, #10\nADD R0, R0, #5\nSUB R0, R0, #3",
+        "type": "multiple_choice",
+        "options": [
+            "R0 = 12",
+            "R0 = 15",
+            "R0 = 8",
+            "R0 = 10"
+        ],
+        "answer": "R0 = 12",
+        "difficulty": "hard"
+    }
+  ]
+  
